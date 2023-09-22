@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0b0ff; /* Lilás */
+  }
+  
+  .container {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .sim-button {
+    background-color: #00ff00; /* Verde */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  #nao-button {
+    background-color: #ff0000; /* Verde */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+    
+  .footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+  }
+
+
+#nao-button:hover {
+  cursor:pointer;
+}
+      
+#nao-button:hover{
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:#3a9999;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'mudou!';
+    transform-origin: bottom ;
+    transform: rotateX(10deg);
+}
+
+#nao-button::after {
+transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%); }

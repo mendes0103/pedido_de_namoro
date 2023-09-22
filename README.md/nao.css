@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .resposta-errada {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
